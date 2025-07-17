@@ -8,6 +8,8 @@ import org.mybatis.spring.annotation.MapperScan;
 @MapperScan("com.atguigu.auth.mapper")
 public class ServiceAuthApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(ServiceAuthApplication.class, args);
+
     }
 }
